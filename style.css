@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    color: brown;
+}
+.logo i{
+    font-size: 2em;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 1.5em;
+}
+ul li:hover{
+    color: brown;
+    cursor: pointer;
+
+}
+button{
+    background-color: brown;
+    color: aliceblue;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+}
+#btn{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top:20px ;
+}
+.one{
+    width: 50%;
+
+}
+.one h1{
+    font-size: 3em;
+    padding-top: 40px;
+}
+span{
+    color: brown;
+}
+.one p{
+    padding-top: 40px;
+
+}
+.two img{
+    border: 3px solid brown;
+    border-radius: 50%;
+
+}
+.one button{
+    background-color: brown;
+    color: aliceblue;
+    padding: 9px 80px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media(max-width:390px){
+    .header{
+    
+
+        padding: 10px 20px;
+    
+    }
+    ul{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
+    .logo{
+        padding: 0;
+    }
+    #btn{
+        display: flex;
+        color: brown;
+        font-size: 2em;
+    }
+    .container{
+        display: block;
+    }
+    .one{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .container button{
+        margin-bottom: 20px;
+    }
+    .two{
+        width: 80%;
+        margin-left: 2px;
+    }
+    
+    
+}
